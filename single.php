@@ -1,6 +1,6 @@
+<?php get_header()?>
 <h1>Single</h1>
 <?php
-get_header();
 get_posts();
 get_post();
 

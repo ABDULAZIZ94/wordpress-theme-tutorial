@@ -4,12 +4,14 @@
   comment_form();
   get_search_form();
   wp_login_url();
-  
+
+  wp_list_pages();
 ?>
 
 <h1>Im singular page</h1>
 
-<body>
+<body class="container">
+  <button class="btn btn-info"> HELP</button>
 <?php wp_login_form();?>
 </body>
 

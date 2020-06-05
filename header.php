@@ -7,11 +7,10 @@
 ?>
 </head>
 <header>
-<h2>Breadcrumb Pagination</h2>
+<!-- <h2>Breadcrumb Pagination</h2> -->
 <ul class="breadcrumb">
-  <li><a href="#">Home</a></li>
-  <li><a href="#">Pictures</a></li>
-  <li><a href="#">Summer 15</a></li>
-  <li><a href="#">Italy</a></li>
+  <?php 
+    wp_nav_menu();
+  ?>
 </ul>
 <header>

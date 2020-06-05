@@ -19,3 +19,15 @@
 <?php 
   get_footer()
 ?>
+
+<?php 
+if ( have_posts() ) :
+  while ( have_posts() ) :
+      the_post();
+  endwhile;
+else :
+    _e( 'Sorry, no posts matched your criteria.', 'devhub' );
+endif;
+
+wp_list_pages();
+?>

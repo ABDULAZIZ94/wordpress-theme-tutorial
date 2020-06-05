@@ -1,4 +1,4 @@
-
+<h1>Index </h1>
 <?php 
   get_header();
   wp_title( );
@@ -10,6 +10,17 @@
   get_pages();
   wp_page_menu();
   get_comments();
+
+  if ( have_posts() ) :
+    while ( have_posts() ) :
+        the_post();
+    endwhile;
+  else :
+      _e( 'Sorry, no posts matched your criteria.', 'devhub' );
+  endif;
+  
+  wp_list_pages();
+
 ?>
 <body>
 
@@ -18,3 +29,4 @@
 <?php 
   get_footer();
 ?>
+

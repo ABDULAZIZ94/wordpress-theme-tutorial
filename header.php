@@ -15,3 +15,8 @@
   ?>
 </ul>
 <header>
+
+<div>
+  <h1>The tags</h1>
+  <?php the_tags(); ?>
+</div>

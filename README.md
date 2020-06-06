@@ -13,9 +13,13 @@ https://developer.wordpress.org/themes/
 
 https://developer.wordpress.org/reference/
 
+https://developer.wordpress.org/themes/references/list-of-template-tags/
+
 
 # bootstrap 
 grid system
 
 https://getbootstrap.com/docs/4.0/layout/grid/
+
+
 

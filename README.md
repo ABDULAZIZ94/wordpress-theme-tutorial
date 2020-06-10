@@ -19,3 +19,6 @@ grid system
 
 https://getbootstrap.com/docs/4.0/layout/grid/
 
+# common used functions
+https://vegibit.com/the-top-100-most-commonly-used-wordpress-functions/
+
